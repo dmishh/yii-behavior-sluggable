@@ -9,7 +9,7 @@
  * @version $Id: SluggableBehavior.php 530 2011-04-30 23:31:12Z florian.fackler $
  * @package components
  */
-include_once __DIR__ . '/Doctrine_Inflector.php';
+include_once dirname(__FILE__) . '/Doctrine_Inflector.php';
 
 /**
  * SluggableBehavior
